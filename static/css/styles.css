@@ -1,0 +1,52 @@
+/* styles.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f8f8; /* Page background color */
+}
+
+/* Styles for the header */
+header {
+    background-color: #ff6f00; /* Orange color */
+    color: black; /* Text color */
+    padding: 20px;
+}
+
+/* Styles for the main content */
+main {
+    margin: 20px auto; /* Centering the main content */
+    max-width: 800px; /* Maximum width of the block */
+}
+
+/* Styles for the form */
+form {
+    margin-top: 20px;
+}
+
+/* Styles for the button */
+button {
+    padding: 10px 20px;
+    background-color: #ff6f00; /* Orange color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth color change on hover */
+}
+
+button:hover {
+    background-color: #ff8f00; /* Button color on hover */
+}
+
+/* Styles for price blocks */
+.price-block {
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #ffffff; /* White background color */
+    border: 1px solid #cccccc; /* Light gray border color */
+    border-radius: 5px;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
